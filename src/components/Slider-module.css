@@ -1,11 +1,9 @@
 .slidecontainer {
-  width: 100%; /* 2/3 partes de la altura de la pantalla menos la altura del encabezado (50px) */
-  margin-top: 100px; /* Añade un margen superior igual a la altura del encabezado */
+
   position: relative; /* Agrega posicionamiento relativo para colocar las imágenes correctamente */
 }
 
 .slide {
-  width:100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,12 +12,10 @@
 
 .slide img {
   height: auto;
-  max-width: 100%;
   object-fit: cover; /* Escalar y recortar la imagen para llenar el contenedor */
 }
 @media (max-width: 768px) {
   img {
-    max-width: 100%; /* Adjust as needed */
     height: auto;
     object-fit: cover;
   }

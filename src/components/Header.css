@@ -3,27 +3,27 @@
   src: local('Helvetica-Bold'), url('../assets/fonts/Helvetica Neue Condensed Bold.ttf') format('truetype');
 }
 
-
 .header {
   width: 100%;
   position: fixed;
-  height:100px;
+  height: 10vh; /* Problema aquí */
   display: flex;
-  top:0;
-  margin:0;
+  top: 0;
+  margin: 0;
   background-color: #151515;
   align-items: center;
   justify-content: space-between;
-  padding:0;
+  padding: 0;
   font-family: 'Helvetica-Bold';
-
 }
+
 
 .container {
   width: 100vw;
   background-color: '#fff';
   left: 0;
   top: 0;
+  height:100% ;
 
 }
 .nav {
@@ -71,9 +71,8 @@ text-decoration: none;
   box-sizing: border-box;
 }
 .nav-item.active a{
-    text-decoration: none;
+ text-decoration: underline;
   text-decoration: none;
-   color: #fff !important;
 }
 
 .hamburger-menu {
@@ -136,7 +135,7 @@ text-decoration: none;
 
 .nav-item a{
   text-decoration: none;
-  margin: 0 40px;
+  margin: 0;
   font-weight: bold;
   font-size:1.3em;
   font-family: 'Helvetica-Bold';
@@ -161,7 +160,6 @@ text-decoration: none;
   font-family: 'Helvetica-Bold';
 
 }
-
 
   .hamburger-menu {
     display: flex;

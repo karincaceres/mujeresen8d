@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 import '../pages/styles.css';
 
 const Popup = ({ link }) => {
+    // eslint-disable-next-line
   const [isVisible, setIsVisible] = useState(true);
   const widthScreen = window.innerWidth > 790;
 
-  const handlePopupButtonClick = () => {
-    setIsVisible(false);
-  };
+//  const handlePopupButtonClick = () => {
+//    setIsVisible(false);
+//  };
 
   const handleLinkButtonClick = () => {
     window.location.href = "https://console.firebase.google.com/project/cgsapp-93e31/settings/general/ios:paintergo.app";
@@ -24,7 +25,7 @@ const Popup = ({ link }) => {
             position: 'fixed',
             top: '0',
             left: '0',
-            width: '100%',
+            width:widthScreen? '100%':'90%',
             height: '100%',
             backgroundColor: 'rgba(0, 0, 0, 0.5)',
             zIndex: '1000',
@@ -42,10 +43,10 @@ const Popup = ({ link }) => {
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center', // Centra el contenido horizontalmente
-              padding: '20px', // Espacio de relleno
+              // Espacio de relleno
             }}
           >
-            <p className="SI-ESTS-CONDUCIENDO-NO-USES-EL-FILTRO" style={{ marginTop: 30, fontSize: '2em' }}>
+            <p className="SI-ESTS-CONDUCIENDO-NO-USES-EL-FILTRO" style={{ marginTop: '20%', fontSize: '2em' }}>
               SI ESTÁS CONDUCIENDO
               NO USES EL FILTRO
             </p>
@@ -70,7 +71,7 @@ const Popup = ({ link }) => {
                 <span className="CONTINUAR">CONTINUAR</span>
               </button>
             </div>
-            <button onClick={handlePopupButtonClick}>No</button>
+            {/*<button onClick={handlePopupButtonClick}>No</button>*/}
           </div>
         </div>
       </div>

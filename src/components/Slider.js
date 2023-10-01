@@ -15,7 +15,7 @@ function CarouselSlider({ imagenes }) {
     vertical: false,
     verticalSwiping: false,
     swipeToSlide: true,
-    initialSlide: 2
+    initialSlide: 1
   };
 
   return (

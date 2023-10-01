@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/imgs/logo.png';
 import './Header.css';
@@ -18,18 +18,24 @@ const Header = () => {
     if (!widthScreen) {
       setMenuOpen(false);
     }
+    //console.log('aca',activeSection)
   };
 
   const setActiveLinkStyle = (isActive) => {
-    return isActive ? { color: '#fff' } : { color: '#eca9bb' };
+    return isActive ? {  textDecoration: 'underline' } : { color: '#eca9bb' };
+
   };
+    useEffect(() => {
+     
+   // console.log(activeSection);
+ }, [activeSection]);
 
   // Corrected placement of JSX elements
   return (
     <header className="header" style={{ zIndex: 900 }}>
       {widthScreen ? (
         <>
-          <img src={logo} alt="Logo" height="80%" style={{ marginLeft: '15%', padding: 10 }} />
+          <img src={logo} alt="Logo" height="80%" style={{ marginLeft: '30px', padding: 10 }} />
           <nav>
             <ul className="nav-list">
               <li className={`nav-item ${activeSection === 'home' ? 'active' : ''}`}>
@@ -42,13 +48,15 @@ const Header = () => {
                 </Link>
               </li>
               <li className={`nav-item ${activeSection === 'page2' ? 'active' : ''}`}>
-                <Link
-                  to="/page2"
-                  onClick={() => handleNavClick('page2')}
-                  style={setActiveLinkStyle(activeSection === 'page2')}
+                <a
+                    href="https://s3webpdf.s3.amazonaws.com/info_cancerdemama.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => handleNavClick('page2')}
+                    style={setActiveLinkStyle(activeSection === 'page2')}
                 >
-                  CÁNCER DE MAMA
-                </Link>
+                    CÁNCER DE MAMA
+                </a>
               </li>
               <li className={`nav-item ${activeSection === 'page3' ? 'active' : ''}`}>
                 <Link
@@ -88,13 +96,23 @@ const Header = () => {
                 </Link>
               </li>
                <li className={`nav-item ${activeSection === 'page2' ? 'active' : ''}`}>
-                <Link
+                {/*<Link
                   to="/page2"
                   onClick={() => handleNavClick('page2')}
                   style={setActiveLinkStyle(activeSection === 'page2')}
                 >
                   CÁNCER DE MAMA
-                </Link>
+                </Link>*/}
+
+                    <a
+                    href="https://s3webpdf.s3.amazonaws.com/info_cancerdemama.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => handleNavClick('page2')}
+                    style={setActiveLinkStyle(activeSection === 'page2')}
+                >
+                    CÁNCER DE MAMA
+                </a>
               </li>
               <li className={`nav-item ${activeSection === 'page3' ? 'active' : ''}`}>
                 <Link
