@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Popup from './Popup'; // Importa el componente Popup
+import Popup from '../components/Popup'; // Importa el componente Popup
 import '../pages/styles.css';
 
 const FloatingButton = () => {
@@ -8,6 +8,9 @@ const FloatingButton = () => {
 
   const handleButtonClick = () => {
     setShowPopup(true);
+  };
+ const handleButtonClose = () => {
+    setShowPopup(false);
   };
 
   return (
@@ -20,8 +23,8 @@ const FloatingButton = () => {
           boxShadow: '4px 4px 6px 0 rgba(0, 0, 0, 0.93)',
           backgroundColor: '#66468e',
           position: 'fixed',
-          top: widthScreen ? '50%' : '30%',
-          right: '10%',
+          top: widthScreen ? '50%' : '35%',
+          right: widthScreen ?'10%':'5%',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -37,7 +40,7 @@ const FloatingButton = () => {
       {/* Mostrar el pop-up si showPopup es verdadero */}
       {showPopup && (
         <Popup
-          onClose={() => setShowPopup(false)}
+          onClose={handleButtonClose}
         />
       )}
     </div>
