@@ -1,23 +1,12 @@
 import React from 'react';
-import image1 from '../assets/imgs/image1.jpeg';
 import Header from '../components/Header';
+
 function Page2() {
   return (
-      <div className='container' id="\page2" >
-        <Header />
-      <h1 style={{marginTop:50}}>Page 2</h1>
-      <div className="image-container">
-           <img src={image1} alt="Logo" height="60px" />
-      </div>
-      <div className="info-container">
-        <div className="column">
-          <h2>Column 1</h2>
-          <p>Info for Column 1</p>
-        </div>
-        <div className="column">
-          <h2>Column 2</h2>
-          <p>Info for Column 2</p>
-        </div>
+    <div id="\page2">
+      <Header />
+      <div style={{ marginTop: 100, height: '100vh', width: '100%' }}>
+        <embed src="https://s3webpdf.s3.amazonaws.com/info_cancerdemama.pdf" type="application/pdf" width="100%" height="100%" />
       </div>
     </div>
   );

@@ -15,7 +15,9 @@ import FloatingButton from '../components/FloatingButton';
 
 import imagecancer1 from '../assets/imgs/SLIDEScanceryM8D-07.png';
 import imagecancer2 from '../assets/imgs/SLIDEScanceryM8D-08.png';
-
+import imagecancer1R from '../assets/imgs/SLIDEmobileM8D-44.png'
+import imagecancer2R from '../assets/imgs/SLIDEmobileM8D-45.png'
+import creador from '../assets/imgs/creadorpor-09.jpg'
 import './styles.css';
 
 function Home() {
@@ -35,8 +37,10 @@ function Home() {
   return (
     <div id="\home" className="container">
       <Header />
-      <div style={{ width: '100%', marginTop: '100px' }}>
-        <Slider imagenes={mockImagenes} />
+    <div style={{ width: '100%', marginTop: '100px' }}>
+
+            <Slider imagenes={mockImagenes} />
+
       </div>
       <div
         style={{
@@ -47,7 +51,7 @@ function Home() {
           marginTop: '20px',
         }}
       >
-        <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '' : '1.3em' , height:50}}>
+        <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.8em' : '1.3em' , height:50}}>
           Hacen posible esta campaña
         </span>
       </div>
@@ -63,12 +67,22 @@ function Home() {
           </>
         )}
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <Link onClick={handleButtonClick1} style={{ cursor: 'pointer',  bottom: 0 }}>
-            <img src={imagecancer1} alt="imagen1" className="responsive-image" />
+            <Link to="#" onClick={handleButtonClick1} style={{ cursor: 'pointer', bottom: 0 }}>
+                      {widthScreen ? (
+                          <img src={imagecancer1} alt="imagen3" className="responsive-image" />
+                      ) : (
+                          <img src={imagecancer1R} alt="imagen4" className="responsive-image" />
+                      )}
+
           </Link>
-          <Link onClick={handleButtonClick2} style={{ cursor: 'pointer',  top: 0 }}>
-            <img src={imagecancer2} alt="imagen2" className="responsive-image" />
-          </Link>
+          <Link to="#" onClick={handleButtonClick2} style={{ cursor: 'pointer',  top: 0 }}>
+                     {widthScreen ? (
+                          <img src={imagecancer2} alt="imagen3" className="responsive-image" />
+                      ) : (
+                          <img src={imagecancer2R} alt="imagen4" className="responsive-image" />
+                      )}
+           </Link>
+             <img src={creador} alt="imagen2" style={{width:'100%'}} />
         </div>
       </div>
 
