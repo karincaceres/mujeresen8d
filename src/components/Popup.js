@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import '../pages/styles.css';
 
-const Popup = ({ link }) => {
+const Popup = ({ link, onClose }) => {
     // eslint-disable-next-line
   const [isVisible, setIsVisible] = useState(true);
   const widthScreen = window.innerWidth > 790;
 
   const handlePopupButtonClick = () => {
-    setIsVisible(false);
+     setIsVisible(false);
+     onClose();
   };
 
   const handleLinkButtonClick = () => {
@@ -16,7 +17,8 @@ const Popup = ({ link }) => {
 
   return (
     <div className={`popup ${isVisible ? 'visible' : ''}`}>
-      <div className="popup-content">
+          <div className="popup-content">
+
         <div
           style={{
             display: 'flex',
@@ -30,7 +32,8 @@ const Popup = ({ link }) => {
             backgroundColor: 'rgba(0, 0, 0, 0.5)',
             zIndex: '1000',
           }}
-        >
+              >
+
           <div
             className="Rectngulo-63"
             style={{
@@ -45,7 +48,9 @@ const Popup = ({ link }) => {
               alignItems: 'center', // Centra el contenido horizontalmente
               // Espacio de relleno
             }}
-          >
+                  >
+            <button className="close-button"
+                    onClick={handlePopupButtonClick}>X</button>
             <p className="SI-ESTS-CONDUCIENDO-NO-USES-EL-FILTRO" style={{ marginTop: '20%', fontSize: '2em' }}>
               SI ESTÁS CONDUCIENDO
               NO USES EL FILTRO
@@ -71,7 +76,7 @@ const Popup = ({ link }) => {
                 <span className="CONTINUAR">CONTINUAR</span>
               </button>
             </div>
-            <button className="close-button" onClick={handlePopupButtonClick}>X</button>
+
           </div>
         </div>
       </div>

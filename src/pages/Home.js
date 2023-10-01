@@ -11,7 +11,7 @@ import cliente1 from '../assets/imgs/slidemarcasmobile-11.jpg';
 import cliente2 from '../assets/imgs/slidemarcasmobile-12.jpg';
 import cliente3 from '../assets/imgs/slidemarcasmobile-13.jpg';
 import Clientes from '../assets/imgs/Clientes.jpg';
-import FloatingButton from '../components/FloatingButton';
+import FloatingButton from './FloatingButton';
 
 import imagecancer1 from '../assets/imgs/SLIDEScanceryM8D-07.png';
 import imagecancer2 from '../assets/imgs/SLIDEScanceryM8D-08.png';
@@ -29,6 +29,8 @@ function Home() {
   const handleButtonClick1 = () => {
     window.location.href = 'https://s3webpdf.s3.amazonaws.com/info_cancerdemama.pdf'; // Reemplaza '/pagina1' con la URL deseada
   };
+
+
 
   const handleButtonClick2 = () => {
     window.location.href = '/page3'; // Reemplaza '/pagina2' con la URL deseada
@@ -84,7 +86,7 @@ function Home() {
         </div>
       </div>
 
-      <FloatingButton />
+          <FloatingButton />
     </div>
   );
 }
