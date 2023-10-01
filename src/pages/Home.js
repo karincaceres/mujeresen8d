@@ -37,7 +37,7 @@ function Home() {
   return (
     <div id="\home" className="container">
       <Header />
-      <div className="second-slider-container" style={{marginTop:'100px'}}>
+      <div className="second-slider-container" style={{marginTop:widthScreen?'100px': '80px'}}>
             <Slider imagenes={mockImagenes} />
       </div>
       <div

@@ -13,7 +13,8 @@ function CarouselSlider({ imagenes }) {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
-    initialSlide: 1
+    initialSlide: 1,
+    arrows: false,
   };
 
   return (

@@ -58,14 +58,14 @@ function Page3() {
     const changeContent = (newVideo, newImage) => {
     setCurrentImage(newImage);
      setCurrentVideo(`https://www.youtube.com/embed/${newVideo}`);
-  
+
 };
 
 
   return (
     <div id="\home" className="container">
       <Header />
-      <div style={{ width: '100%', marginTop: '100px' }}>
+     <div className="second-slider-container" style={{marginTop:widthScreen?'100px': '80px'}}>
         <Slider imagenes={mockImagenes} />
       </div>
       <div
@@ -78,7 +78,7 @@ function Page3() {
           marginBottom:0
         }}
       >
-        <span className="Hacen-posible-esta-campaa" style={{padding:30, fontStyle:'normal', color:'#eca9bb', fontSize: widthScreen ? '3.2em' : '2em', fontWeight:'bold', height:widthScreen? '60px':'40px' }}>
+        <span className="Hacen-posible-esta-campaa" style={{ fontStyle:'normal', color:'#eca9bb', fontSize: widthScreen ? '3.2em' : '2em', fontWeight:'bold', height:widthScreen? '60px':'40px' }}>
          NUESTRAS MUJERES
         </span>
       </div>
