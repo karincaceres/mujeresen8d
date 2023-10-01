@@ -2,7 +2,10 @@
   font-family: 'Helvetica-Bold';
   src: local('Helvetica-Bold'), url('../assets/fonts/Helvetica Neue Condensed Bold.ttf') format('truetype');
 }
-
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: local('Roboto-Medium'), url('../assets/fonts/Roboto-Medium.ttf') format('truetype');
+}
 .header {
   width: 100vw;
   position: fixed;

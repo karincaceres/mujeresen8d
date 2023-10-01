@@ -6,9 +6,9 @@ const Popup = ({ link }) => {
   const [isVisible, setIsVisible] = useState(true);
   const widthScreen = window.innerWidth > 790;
 
-//  const handlePopupButtonClick = () => {
-//    setIsVisible(false);
-//  };
+  const handlePopupButtonClick = () => {
+    setIsVisible(false);
+  };
 
   const handleLinkButtonClick = () => {
     window.location.href = "https://console.firebase.google.com/project/cgsapp-93e31/settings/general/ios:paintergo.app";
@@ -71,7 +71,7 @@ const Popup = ({ link }) => {
                 <span className="CONTINUAR">CONTINUAR</span>
               </button>
             </div>
-            {/*<button onClick={handlePopupButtonClick}>No</button>*/}
+            <button className="close-button" onClick={handlePopupButtonClick}>X</button>
           </div>
         </div>
       </div>
