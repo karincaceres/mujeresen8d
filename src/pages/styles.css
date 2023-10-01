@@ -10,7 +10,7 @@
 .Hacen-posible-esta-campaa {
   width: 100%;
   height: 40pxpx;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-size: 3.2em;
   font-weight: normal;
   font-stretch: normal;
@@ -23,7 +23,7 @@
 
 .USAR-FILTRO {
   padding:20;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-size: 1.8em;
   font-weight: bold;
   font-stretch: normal;
@@ -90,7 +90,7 @@
 
 .SI-ESTS-CONDUCIENDO-NO-USES-EL-FILTRO {
   margin: 0 0 42px;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-size: 50px;
   font-weight: bold;
   font-stretch: normal;
@@ -121,7 +121,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Roboto';
+  font-family: 'Roboto-Medium';
   font-size: 25px;
   font-weight: bold;
   font-stretch: normal;
