@@ -55,9 +55,10 @@ function Page3() {
   const [currentImage, setCurrentImage] = useState(initialImage);
 
   // Función para cambiar el video y la imagen
-const changeContent = (newVideo, newImage) => {
-  setCurrentVideo(`https://www.youtube.com/embed/${newVideo}`);
-  setCurrentImage(newImage);
+    const changeContent = (newVideo, newImage) => {
+    setCurrentImage(newImage);
+     setCurrentVideo(`https://www.youtube.com/embed/${newVideo}`);
+  
 };
 
 
