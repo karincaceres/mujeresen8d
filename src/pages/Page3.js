@@ -65,7 +65,7 @@ function Page3() {
   return (
     <div id="\home" className="container">
       <Header />
-     <div className="second-slider-container" style={{marginTop:widthScreen?'100px': '80px'}}>
+     <div className="second-slider-container" style={{marginTop:'10vh'}}>
         <Slider imagenes={mockImagenes} />
       </div>
       <div
