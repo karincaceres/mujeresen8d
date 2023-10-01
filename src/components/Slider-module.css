@@ -1,19 +1,29 @@
 .slidecontainer {
-
+ width:100%;
   position: relative; /* Agrega posicionamiento relativo para colocar las imágenes correctamente */
 }
-
+.slick-next {
+  display: none;
+}
 .slide {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative; /* Agrega posicionamiento relativo para colocar las imágenes correctamente */
 }
-
-.slide img {
-  height: auto;
-  object-fit: cover; /* Escalar y recortar la imagen para llenar el contenedor */
+/* Ocultar las flechas "Next" y "Previous" de slick */
+.slick-slider .slick-next,
+.slick-slider .slick-prev {
+  display: none;
+  right:0;
+  left:0;
 }
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 768px) {
   img {
     height: auto;

@@ -12,8 +12,6 @@ function CarouselSlider({ imagenes }) {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
-    vertical: false,
-    verticalSwiping: false,
     swipeToSlide: true,
     initialSlide: 1
   };

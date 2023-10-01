@@ -26,7 +26,7 @@ const Header = () => {
 
   };
     useEffect(() => {
-     
+
    // console.log(activeSection);
  }, [activeSection]);
 
@@ -35,7 +35,7 @@ const Header = () => {
     <header className="header" style={{ zIndex: 900 }}>
       {widthScreen ? (
         <>
-          <img src={logo} alt="Logo" height="80%" style={{ marginLeft: '30px', padding: 10 }} />
+          <img src={logo} alt="Logo" height="100px" style={{maxHeight:'100px', marginLeft: '30px' }} />
           <nav>
             <ul className="nav-list">
               <li className={`nav-item ${activeSection === 'home' ? 'active' : ''}`}>
