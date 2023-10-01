@@ -1,0 +1,122 @@
+
+
+.Hacen-posible-esta-campaa {
+  width: 100%;
+  height: 40pxpx;
+  font-family: Roboto;
+  font-size: 49px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 0.78;
+  letter-spacing: normal;
+  text-align: center;
+  color: #313131;
+}
+
+.USAR-FILTRO {
+  padding:20;
+  font-family: Roboto;
+  font-size: 1.8em;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1.04px;
+  text-align: left;
+  color: #fff;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.popup.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-box p {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.popup-box button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.SI-ESTS-CONDUCIENDO-NO-USES-EL-FILTRO {
+  margin: 0 0 42px;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #272727;
+}
+.Rectngulo-97 {
+  width: 331px;
+  height: 58px;
+  margin: 20px auto 0; /* Alineado verticalmente en el centro */
+  padding: 13px 88px 12px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2); /* Sombra */
+  background-color: #eca9bb;
+  text-align: center;
+}
+
+.Rectngulo-97:hover {
+  background-color: #ff7f9d; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.CONTINUAR {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #66468e;
+}
+/* Estilos para hacer que las imágenes sean responsivas */
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.responsive-imageFiltro {
+  max-width: 100%;
+  height: auto;
+}
