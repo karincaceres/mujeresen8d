@@ -13,9 +13,9 @@ import cliente3 from '../assets/imgs/slidemarcasmobile-13.jpg';
 import Clientes from '../assets/imgs/Clientes.jpg';
 import FloatingButton from './FloatingButton';
 
-import imagecancer1 from '../assets/imgs/SLIDEScanceryM8D-07.png';
+import imagecancer1 from '../assets/imgs/SLIDEScanceryM8D-07.jpeg';
 import imagecancer2 from '../assets/imgs/SLIDEScanceryM8D-08.png';
-import imagecancer1R from '../assets/imgs/SLIDEmobileM8D-44.png'
+import imagecancer1R from '../assets/imgs/SLIDEmobileM8D-44.jpeg'
 import imagecancer2R from '../assets/imgs/SLIDEmobileM8D-45.png'
 import creador from '../assets/imgs/creadorpor-09.jpg'
 import './styles.css';
@@ -39,7 +39,7 @@ function Home() {
   return (
     <div id="\home" className="container">
       <Header />
-      <div className="second-slider-container" style={{marginTop:widthScreen?'100px': '80px'}}>
+      <div className="second-slider-container" style={{marginTop:widthScreen?'10vh': '10vh'}}>
             <Slider imagenes={mockImagenes} />
       </div>
       <div

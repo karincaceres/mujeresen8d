@@ -118,7 +118,7 @@ text-decoration: none;
   .nav {
     text-decoration: none;
     position: absolute;
-    top: 80px;
+    top:10vh;
     left: 0;
     width: 100%;
     background-color: #151515;
