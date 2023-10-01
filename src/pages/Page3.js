@@ -21,20 +21,20 @@ import FloatingButton from '../components/FloatingButton';
 
 import imageVideo1 from '../assets/imgs/Videos/webymobilemechi-27.png'
 import imageVideo1R from '../assets/imgs/Videos/webymobilemechi-18.png'
-import imageVideo2 from '../assets/imgs/Videos/webymobilemechi-27.png'
-import imageVideo2R from '../assets/imgs/Videos/webymobilemechi-18.png'
-import imageVideo3 from '../assets/imgs/Videos/webymobilemechi-27.png'
-import imageVideo3R from '../assets/imgs/Videos/webymobilemechi-18.png'
-import imageVideo4 from '../assets/imgs/Videos/webymobilemechi-27.png'
-import imageVideo4R from '../assets/imgs/Videos/webymobilemechi-18.png'
-import imageVideo5 from '../assets/imgs/Videos/webymobilemechi-27.png'
-import imageVideo5R from '../assets/imgs/Videos/webymobilemechi-18.png'
-import imageVideo6 from '../assets/imgs/Videos/webymobilemechi-27.png'
-import imageVideo6R from '../assets/imgs/Videos/webymobilemechi-18.png'
-import imageVideo7 from '../assets/imgs/Videos/webymobilemechi-27.png'
-import imageVideo7R from '../assets/imgs/Videos/webymobilemechi-18.png'
-import imageVideo8 from '../assets/imgs/Videos/webymobilemechi-27.png'
-import imageVideo8R from '../assets/imgs/Videos/webymobilemechi-18.png'
+import imageVideo2 from '../assets/imgs/Videos/modacecitomasettiweb-30.png'
+import imageVideo2R from '../assets/imgs/Videos/modacecitomaselli-29.png'
+import imageVideo3 from '../assets/imgs/Videos/deportesolmartinez-web.png'
+import imageVideo3R from '../assets/imgs/Videos/deportesolmartinez-mobile.png'
+import imageVideo4 from '../assets/imgs/Videos/anitarizziweb-34.png'
+import imageVideo4R from '../assets/imgs/Videos/artistaanitarizzimobile.png'
+import imageVideo5 from '../assets/imgs/Videos/tecnologicalucreweb-35.png'
+import imageVideo5R from '../assets/imgs/Videos/tecnologicalucremobile.png'
+import imageVideo6 from '../assets/imgs/Videos/gastronomicaweb-39.png'
+import imageVideo6R from '../assets/imgs/Videos/gastronomicamobile.png'
+import imageVideo7 from '../assets/imgs/Videos/gastronomicaweb-39.png'
+import imageVideo7R from '../assets/imgs/Videos/gastronomicamobile.png'
+import imageVideo8 from '../assets/imgs/Videos/cancerangelinaweb-43.png'
+import imageVideo8R from '../assets/imgs/Videos/cancerangelinamobile.png'
 
 import './styles.css';
 
@@ -44,7 +44,7 @@ function Page3() {
  let initialVideo, initialImage;
 
   if (widthScreen) {
-    initialVideo = 'https://www.youtube.com/embed/IA7biK4bSR8';
+    initialVideo = 'https://www.youtube.com/embed/Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0';
     initialImage = imageVideo1;
   } else {
     initialVideo = 'https://www.youtube.com/embed/dhFCUnCGmXM';
@@ -60,7 +60,6 @@ const changeContent = (newVideo, newImage) => {
   setCurrentImage(newImage);
 };
 
-console.log(currentVideo, imageVideo1,currentImage)
 
   return (
     <div id="\home" className="container">
@@ -88,43 +87,43 @@ console.log(currentVideo, imageVideo1,currentImage)
           <>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo1)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo1)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro1} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo2)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo2)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro2} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo3)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo3)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro3} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo4)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo4)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro4} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo5)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo5)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro5} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo6)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo6)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro6} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo7)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo7)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro7} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
                               {/* Agrega más enlaces similares aquí */}
@@ -141,25 +140,25 @@ console.log(currentVideo, imageVideo1,currentImage)
           <>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo1R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo1R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro1} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo2R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo2R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro2} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo3R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo3R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro3} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo4R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo4R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro4} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
@@ -167,19 +166,19 @@ console.log(currentVideo, imageVideo1,currentImage)
         </div>
            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo5R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo5R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro5} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo6R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo6R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro6} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('IA7biK4bSR8', imageVideo7R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo7R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro7} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
                               {/* Agrega más enlaces similares aquí */}
