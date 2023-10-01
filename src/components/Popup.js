@@ -12,7 +12,7 @@ const Popup = ({ link, onClose }) => {
   };
 
   const handleLinkButtonClick = () => {
-    window.location.href = "https://console.firebase.google.com/project/cgsapp-93e31/settings/general/ios:paintergo.app";
+    window.location.href = "https://bestigfilters.com/65";
   };
 
   return (
