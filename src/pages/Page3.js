@@ -44,10 +44,10 @@ function Page3() {
  let initialVideo, initialImage;
 
   if (widthScreen) {
-    initialVideo = 'https://www.youtube.com/embed/Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0';
+    initialVideo = 'https://www.youtube.com/embed/WcY0DaRjK4s?autoplay=1';
     initialImage = imageVideo1;
   } else {
-    initialVideo = 'https://www.youtube.com/embed/dhFCUnCGmXM';
+    initialVideo = 'https://www.youtube.com/embed/WcY0DaRjK4s?autoplay=1';
     initialImage = imageVideo1R;
   }
   // Estado para rastrear el video actual y la imagen
@@ -57,7 +57,7 @@ function Page3() {
   // Función para cambiar el video y la imagen
     const changeContent = (newVideo, newImage) => {
     setCurrentImage(newImage);
-     setCurrentVideo(`https://www.youtube.com/embed/${newVideo}`);
+     setCurrentVideo(`https://www.youtube.com/embed/${newVideo}?autoplay=1`);
 
 };
 
@@ -82,55 +82,55 @@ function Page3() {
          NUESTRAS MUJERES
         </span>
       </div>
-
+WcY0DaRjK4s
       <div >
         {widthScreen ? (
           <>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo1)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo1)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro1} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo2)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo2)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro2} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo3)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo3)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro3} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo4)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo4)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro4} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo5)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo5)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro5} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo6)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo6)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro6} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo7)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo7)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro7} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
                               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('dhFCUnCGmXM', imageVideo8)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo8)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro8} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
@@ -141,25 +141,25 @@ function Page3() {
           <>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo1R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo1R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro1} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
          <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo2R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo2R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro2} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo3R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo3R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro3} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo4R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo4R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro4} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
@@ -167,25 +167,25 @@ function Page3() {
         </div>
            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
           <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo5R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo5R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro5} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo6R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo6R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro6} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('Dy_gAaPM1NU?autoplay=1&mute=1&loop=1&showinfo=0', imageVideo7R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo7R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro7} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
                               {/* Agrega más enlaces similares aquí */}
         </div>
         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <Link to="#" onClick={() => changeContent('dhFCUnCGmXM', imageVideo8R)} style={{ cursor: 'pointer', bottom: 0 }}>
+              <Link to="#" onClick={() => changeContent('WcY0DaRjK4s', imageVideo8R)} style={{ cursor: 'pointer', bottom: 0 }}>
                 <img src={Filtro8} alt="imagen1" className="responsive-imageFiltro" />
               </Link>
               {/* Agrega más enlaces similares aquí */}
