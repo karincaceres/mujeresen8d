@@ -17,10 +17,10 @@
       "type": "image/png",
       "sizes": "512x512"
     },
-    {
+     {
     "src": "logo64.png",
     "type": "image/png",
-    "sizes": "64x64"
+    "sizes": "96x96"
     }
   ],
   "start_url": ".",
