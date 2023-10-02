@@ -59,8 +59,8 @@ const Popup = ({ link, onClose }) => {
             <div>
               <button
                 style={{
-                  width: widthScreen ? '350px' : '200px',
-                  height: widthScreen ? '50px' : '40px',
+                  width: widthScreen ? '20vw' : '70vw',
+                  height: widthScreen ? '8vh' : '8vh',
                   borderRadius: '57px',
                   boxShadow: '4px 4px 6px 0 rgba(0, 0, 0, 0.93)',
                   backgroundColor:  '#66468e',

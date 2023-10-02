@@ -17,13 +17,13 @@ const FloatingButton = () => {
     <div>
       <div
         style={{
-          width: widthScreen ? '30vw' : '40vw',
-          height: widthScreen ? '8vh' : '4vh',
+          width: widthScreen ? '25vw' : '45vw',
+          height: widthScreen ? '8vh' : '6vh',
           borderRadius: '57px',
           boxShadow: '4px 4px 6px 0 rgba(0, 0, 0, 0.93)',
           backgroundColor: '#66468e',
           position: 'fixed',
-          top: widthScreen ? '80vh' : '35vh',
+          bottom: widthScreen ? '8vh' : '5vh',
           right: widthScreen ?'10vw':'5vw',
           display: 'flex',
           justifyContent: 'center',
