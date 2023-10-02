@@ -63,7 +63,7 @@ const Popup = ({ link, onClose }) => {
                   height: widthScreen ? '50px' : '40px',
                   borderRadius: '57px',
                   boxShadow: '4px 4px 6px 0 rgba(0, 0, 0, 0.93)',
-                  backgroundColor: '#eca9bb',
+                  backgroundColor:  '#66468e',
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
