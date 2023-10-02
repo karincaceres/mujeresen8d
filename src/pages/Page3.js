@@ -74,7 +74,7 @@ function Page3() {
           flexDirection: 'column',
           justifyContent: 'center',
           alignItems: 'center',
-          marginTop: '20px',
+          marginTop: '40px',
           marginBottom:0
         }}
       >
@@ -82,7 +82,7 @@ function Page3() {
          NUESTRAS MUJERES
         </span>
       </div>
-WcY0DaRjK4s
+
       <div >
         {widthScreen ? (
           <>
