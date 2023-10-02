@@ -23,7 +23,7 @@ const FloatingButton = () => {
           boxShadow: '4px 4px 6px 0 rgba(0, 0, 0, 0.93)',
           backgroundColor: '#66468e',
           position: 'fixed',
-          top: widthScreen ? '80vh' : '30vh',
+          top: widthScreen ? '80vh' : '35vh',
           right: widthScreen ?'10vw':'5vw',
           display: 'flex',
           justifyContent: 'center',
