@@ -59,11 +59,11 @@ function Home() {
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
-                marginTop: '20px',
+                marginTop: '5px',
                 textAlign: 'center', // Center-align the text
             }}
             >
-            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.8em' : '1.3em', height: 50 ,marginTop:widthScreen?'': '3vh' }}>
+            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.3em' : '0.9em', height: 50 ,marginTop:widthScreen?'': '3vh' }}>
                 Hacen posible esta campaña
             </span>
         </div>

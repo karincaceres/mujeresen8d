@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 function CarouselSlider({ imagenes }) {
     const settings = {
-    dots:true,
+    dots:false,
     autoplay: true,
     autoplaySpeed: 4000,
     speed: 1000,
