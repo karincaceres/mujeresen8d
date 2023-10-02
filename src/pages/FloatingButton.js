@@ -17,14 +17,14 @@ const FloatingButton = () => {
     <div>
       <div
         style={{
-          width: widthScreen ? '350px' : '200px',
-          height: widthScreen ? '50px' : '40px',
+          width: widthScreen ? '30vw' : '40vw',
+          height: widthScreen ? '8vh' : '4vh',
           borderRadius: '57px',
           boxShadow: '4px 4px 6px 0 rgba(0, 0, 0, 0.93)',
           backgroundColor: '#66468e',
           position: 'fixed',
-          top: widthScreen ? '50%' : '30%',
-          right: '10%',
+          top: widthScreen ? '80vh' : '30vh',
+          right: widthScreen ?'10vw':'5vw',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
@@ -32,7 +32,7 @@ const FloatingButton = () => {
         }}
         onClick={handleButtonClick}
       >
-        <div className="USAR-FILTRO" style={{ fontSize: widthScreen ? '1.8em' : '1.2em' }}>
+        <div className="USAR-FILTRO" style={{ fontSize: widthScreen ? '2.2em' : '1.2em' }}>
           USAR FILTRO
         </div>
       </div>
