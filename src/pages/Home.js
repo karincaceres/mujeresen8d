@@ -7,7 +7,7 @@ import image1 from '../assets/imgs/1.jpeg';
 import image2 from '../assets/imgs/2.jpeg';
 import image3 from '../assets/imgs/3.jpeg';
 
-import cliente1 from '../assets/imgs/slidemarcasmobile-11.jpg';
+import cliente1 from '../assets/imgs/slidemarcasmobile-11.jpg'
 import cliente2 from '../assets/imgs/slidemarcasmobile-12.jpg';
 import cliente3 from '../assets/imgs/slidemarcasmobile-13.jpg';
 import Clientes from '../assets/imgs/Clientes.jpg';

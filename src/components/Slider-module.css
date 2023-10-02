@@ -21,8 +21,7 @@
 }
 
 .slick-dots {
-  transform: scale(1.5); /* Adjust the scale factor as needed */
-  transform-origin: center;
+ zoom: 1.5;
 }
 
 /* Define two different dot colors */
