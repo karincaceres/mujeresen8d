@@ -76,8 +76,9 @@ function Home() {
           <>
             <Slider imagenes={mockImagenes2} />
           </>
-        )}
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              )}
+
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop:widthScreen?'': '10%' }}>
             <Link to="#" onClick={handleButtonClick1} style={{ cursor: 'pointer', bottom: 0 }}>
                       {widthScreen ? (
                           <img src={imagecancer1} alt="imagen3" className="responsive-image" />
