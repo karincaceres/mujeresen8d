@@ -35,7 +35,7 @@ const Header = () => {
     <header className="header" style={{ zIndex: 900 }}>
       {widthScreen ? (
         <>
-          <img src={logo} alt="Logo" height="100px" style={{maxHeight:'100px', marginLeft: '30px' }} />
+          <img src={logo} alt="Logo"  style={{ maxWidth:'5vw', marginLeft: '30px' }} />
           <nav>
             <ul className="nav-list">
               <li className={`nav-item ${activeSection === 'home' ? 'active' : ''}`}>
@@ -82,7 +82,7 @@ const Header = () => {
             <div className="hamburger-line"></div>
           </div>
           <div style={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
-            <img src={logo} alt="Logo" className="logo" style={{ maxWidth: '80px', height: 'auto', marginLeft:'-70px' }} />
+            <img src={logo} alt="Logo" className="logo" style={{ maxWidth: '20vw', height: 'auto', marginLeft:'-70px' }} />
           </div>
           <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
             <ul className="nav-list">
