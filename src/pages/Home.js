@@ -64,7 +64,7 @@ function Home() {
             }}
             >
             <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.3em' : '0.9em', height: widthScreen?50:30  }}>
-                Hacen posible esta campaña
+                HACEN POSIBLE ESTA CAMPAÑA
             </span>
         </div>
       <div className="second-slider-container">
