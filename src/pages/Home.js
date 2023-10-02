@@ -59,11 +59,11 @@ function Home() {
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'center',
-                marginTop: '5px',
+                marginTop:widthScreen? '5px':'',
                 textAlign: 'center', // Center-align the text
             }}
             >
-            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.3em' : '0.9em', height: 50 ,marginTop:widthScreen?'': '3vh' }}>
+            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.3em' : '0.9em', height: widthScreen?50:30  }}>
                 Hacen posible esta campaña
             </span>
         </div>
@@ -78,7 +78,7 @@ function Home() {
           </>
               )}
 
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop:widthScreen?'': '5vh' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
             <Link to="#" onClick={handleButtonClick1} style={{ cursor: 'pointer', bottom: 0 }}>
                       {widthScreen ? (
                           <img src={imagecancer1} alt="imagen3" className="responsive-image" />
