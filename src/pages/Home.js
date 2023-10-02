@@ -63,7 +63,7 @@ function Home() {
                 textAlign: 'center', // Center-align the text
             }}
             >
-            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.3em' : '0.9em', height: widthScreen?50:30  }}>
+            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.2em' : '0.6em', height: widthScreen?50:30  }}>
                 HACEN POSIBLE ESTA CAMPAÑA
             </span>
         </div>
