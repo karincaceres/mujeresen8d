@@ -51,11 +51,22 @@ function Home() {
           marginTop: '20px',
         }}
       >
-        <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.8em' : '1.3em' , height:50}}>
-          Hacen posible esta campaña
-        </span>
-      </div>
 
+      </div>
+       <div
+            style={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                marginTop: '20px',
+                textAlign: 'center', // Center-align the text
+            }}
+            >
+            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.8em' : '1.3em', height: 50 }}>
+                Hacen posible esta campaña
+            </span>
+        </div>
       <div className="second-slider-container">
         {widthScreen ? (
           <>

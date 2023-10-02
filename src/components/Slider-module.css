@@ -1,6 +1,7 @@
 .slidecontainer {
  width:100%;
-  position: relative; /* Agrega posicionamiento relativo para colocar las imágenes correctamente */
+  position: relative;
+
 }
 .slick-next {
   display: none;
@@ -17,6 +18,20 @@
   display: none;
   right:0;
   left:0;
+}
+
+.slick-dots {
+  transform: scale(1.5); /* Adjust the scale factor as needed */
+  transform-origin: center;
+}
+
+/* Define two different dot colors */
+.slick-dots li:nth-child(odd) button:before {
+  color: #66468e;
+}
+
+.slick-dots li:nth-child(even) button:before {
+  color: #eca9bb;
 }
 
 .slick-slide img {
