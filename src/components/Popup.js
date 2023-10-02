@@ -27,7 +27,7 @@ const Popup = ({ link, onClose }) => {
             position: 'fixed',
             top: '0',
             left: '0',
-            width:widthScreen? '100%':'90%',
+            width:widthScreen? '100%':'100%',
             height: '100%',
             backgroundColor: 'rgba(0, 0, 0, 0.5)',
             zIndex: '1000',
@@ -38,7 +38,7 @@ const Popup = ({ link, onClose }) => {
             className="Rectngulo-63"
             style={{
               width: '100%',
-              maxWidth: '400px', // Ancho máximo para mantenerlo centrado
+              maxWidth:widthScreen? '400px': '100%', // Ancho máximo para mantenerlo centrado
               height: '354px',
               borderRadius: '18px',
               boxShadow: '5px 5px 6px 0 rgba(0, 0, 0, 0.67)',
