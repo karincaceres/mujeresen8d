@@ -40,7 +40,7 @@ function Home() {
     <div id="\home" className="container">
       <Header />
       <div className="second-slider-container" style={{marginTop:widthScreen?'10vh': '10vh'}}>
-            <Slider imagenes={mockImagenes} />
+            <Slider imagenes={mockImagenes} showDots={false} />
       </div>
       <div
         style={{
@@ -70,11 +70,11 @@ function Home() {
       <div className="second-slider-container">
         {widthScreen ? (
           <>
-            <Slider imagenes={mockImagenes3} />
+            <Slider imagenes={mockImagenes3} showDots={false} />
           </>
         ) : (
           <>
-            <Slider imagenes={mockImagenes2} />
+            <Slider imagenes={mockImagenes2} showDots={false} />
           </>
               )}
 

@@ -4,9 +4,9 @@ import estilos from './Slider-module.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function CarouselSlider({ imagenes }) {
+function CarouselSlider({ imagenes ,showDots}) {
     const settings = {
-    dots:false,
+    dots:showDots,
     autoplay: true,
     autoplaySpeed: 4000,
     speed: 1000,

@@ -66,7 +66,7 @@ function Page3() {
     <div id="\home" className="container">
       <Header />
      <div className="second-slider-container" style={{marginTop:'10vh'}}>
-        <Slider imagenes={mockImagenes} />
+        <Slider imagenes={mockImagenes} showDots={true} />
       </div>
       <div
         style={{
