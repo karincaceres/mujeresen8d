@@ -63,7 +63,7 @@ function Home() {
                 textAlign: 'center', // Center-align the text
             }}
             >
-            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.2em' : '0.6em', height: widthScreen?50:30  }}>
+            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.2em' : '0.6em' }}>
                 HACEN POSIBLE ESTA CAMPAÑA
             </span>
         </div>
@@ -78,8 +78,8 @@ function Home() {
           </>
               )}
 
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-            <Link to="#" onClick={handleButtonClick1} style={{ cursor: 'pointer', bottom: 0 }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', bottom: 0, marginTop:0 }}>
+            <Link to="#" onClick={handleButtonClick1} style={{ cursor: 'pointer'}}>
                       {widthScreen ? (
                           <img src={imagecancer1} alt="imagen3" className="responsive-image" />
                       ) : (
@@ -87,7 +87,7 @@ function Home() {
                       )}
 
           </Link>
-          <Link to="#" onClick={handleButtonClick2} style={{ cursor: 'pointer',  top: 0 }}>
+          <Link to="#" onClick={handleButtonClick2} style={{ cursor: 'pointer',  marginTop: 0 }}>
                      {widthScreen ? (
                           <img src={imagecancer2} alt="imagen3" className="responsive-image" />
                       ) : (
