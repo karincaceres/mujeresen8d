@@ -48,15 +48,13 @@ const Header = () => {
                 </Link>
               </li>
               <li className={`nav-item ${activeSection === 'page2' ? 'active' : ''}`}>
-                <a
-                    href="https://s3webpdf.s3.amazonaws.com/info_cancerdemama.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => handleNavClick('page2')}
-                    style={setActiveLinkStyle(activeSection === 'page2')}
+                <Link
+                  to="/page2"
+                  onClick={() => handleNavClick('page2')}
+                  style={setActiveLinkStyle(activeSection === 'page2')}
                 >
-                    CÁNCER DE MAMA
-                </a>
+                  CancerDeMama
+                </Link>
               </li>
               <li className={`nav-item ${activeSection === 'page3' ? 'active' : ''}`}>
                 <Link
@@ -96,23 +94,13 @@ const Header = () => {
                 </Link>
               </li>
                <li className={`nav-item ${activeSection === 'page2' ? 'active' : ''}`}>
-                {/*<Link
+                <Link
                   to="/page2"
                   onClick={() => handleNavClick('page2')}
                   style={setActiveLinkStyle(activeSection === 'page2')}
                 >
-                  CÁNCER DE MAMA
-                </Link>*/}
-
-                    <a
-                    href="https://s3webpdf.s3.amazonaws.com/info_cancerdemama.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={() => handleNavClick('page2')}
-                    style={setActiveLinkStyle(activeSection === 'page2')}
-                >
-                    CÁNCER DE MAMA
-                </a>
+                  CancerDeMama
+                </Link>
               </li>
               <li className={`nav-item ${activeSection === 'page3' ? 'active' : ''}`}>
                 <Link
