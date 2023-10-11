@@ -137,7 +137,7 @@
 }
 /* Estilos para hacer que las imágenes sean responsivas */
 .responsive-image {
-  max-width: 100%;
+  width: 100vw;
   height: auto;
   margin-top:0;
   margin-bottom:0;

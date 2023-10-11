@@ -41,23 +41,23 @@ import './styles.css';
 function Page3() {
   const widthScreen = window.innerWidth > 790;
   const mockImagenes = [image1, image2, image3,image4];
- let  initialImage;
+ let initialVideo, initialImage;
 
   if (widthScreen) {
-    //initialVideo = 'https://www.youtube.com/embed/WcY0DaRjK4s?autoplay=1';
+    initialVideo = 'https://www.youtube.com/embed/WcY0DaRjK4s?autoplay=1';
     initialImage = imageVideo1;
   } else {
-    //initialVideo = 'https://www.youtube.com/embed/WcY0DaRjK4s?autoplay=1';
+    initialVideo = 'https://www.youtube.com/embed/WcY0DaRjK4s?autoplay=1';
     initialImage = imageVideo1R;
   }
   // Estado para rastrear el video actual y la imagen
-// const [currentVideo, setCurrentVideo] = useState(initialVideo);
+ const [currentVideo, setCurrentVideo] = useState(initialVideo);
   const [currentImage, setCurrentImage] = useState(initialImage);
 
   // Función para cambiar el video y la imagen
     const changeContent = (newVideo, newImage) => {
     setCurrentImage(newImage);
-    // setCurrentVideo(`https://www.youtube.com/embed/${newVideo}?autoplay=1`);
+     setCurrentVideo(`https://www.youtube.com/embed/${newVideo}?autoplay=1`);
 
 };
 

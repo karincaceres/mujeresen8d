@@ -7,10 +7,10 @@ import image1 from '../assets/imgs/1.jpeg';
 import image2 from '../assets/imgs/2.jpeg';
 import image3 from '../assets/imgs/3.jpeg';
 
-import cliente1 from '../assets/imgs/slidemarcasmobile-11.jpg'
-import cliente2 from '../assets/imgs/slidemarcasmobile-12.jpg';
-import cliente3 from '../assets/imgs/slidemarcasmobile-13.jpg';
-import Clientes from '../assets/imgs/Clientes.jpg';
+import cliente1 from '../assets/imgs/slides-marcas-11.jpg'
+import cliente2 from '../assets/imgs//slidemarcasmobile-12.jpg'
+import cliente3 from '../assets/imgs/slidemarcasmobile-13.jpg'
+import Clientes from '../assets/imgs/slides-web-marcas.jpg'
 import FloatingButton from './FloatingButton';
 
 import imagecancer1 from '../assets/imgs/SLIDEScanceryM8D-07.jpeg';
@@ -26,8 +26,9 @@ function Home() {
   const mockImagenes2 = [cliente1, cliente2, cliente3];
   const mockImagenes3 = [Clientes];
 
-  const handleButtonClick1 = () => {
-    window.location.href = 'https://s3webpdf.s3.amazonaws.com/info_cancerdemama.pdf'; // Reemplaza '/pagina1' con la URL deseada
+    const handleButtonClick1 = () => {
+      console.log('acac')
+    window.location.href = '/page2'; // Reemplaza '/pagina2' con la URL deseada
   };
 
 
@@ -79,7 +80,7 @@ function Home() {
               )}
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', bottom: 0, marginTop:0 }}>
-            <Link to="#" onClick={handleButtonClick1} style={{ cursor: 'pointer'}}>
+            <Link to="#" onClick={handleButtonClick1} style={{ cursor: 'pointer',  marginTop: 0}}>
                       {widthScreen ? (
                           <img src={imagecancer1} alt="imagen3" className="responsive-image" />
                       ) : (
