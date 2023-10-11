@@ -137,7 +137,7 @@
 }
 /* Estilos para hacer que las imágenes sean responsivas */
 .responsive-image {
-  width: 100vw;
+  width: 100%;
   height: auto;
   margin-top:0;
   margin-bottom:0;
@@ -148,4 +148,23 @@
 .responsive-imageFiltro {
   max-width: 100%;
   height: auto;
+
+}
+.button-zoom {
+  transition: transform 0.3s ease-in-out;
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0;
+}
+
+.button-zoom:hover {
+  transform: scale(1.1); /* Ajusta el valor según el zoom deseado */
+}
+@media (max-width: 790px) {
+  .button-zoom {
+    touch-action: manipulation; /* Desactiva el zoom táctil */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Desactiva el resaltado al tocar en algunos dispositivos */
+    border: none; /* Elimina el borde predeterminado */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0; /* Elimina cualquier relleno predeterminado */
+  }
 }
