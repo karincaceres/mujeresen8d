@@ -17,7 +17,7 @@ import imagecancer1 from '../assets/imgs/SLIDEScanceryM8D-07.jpeg';
 import imagecancer2 from '../assets/imgs/SLIDEScanceryM8D-08.png';
 import imagecancer1R from '../assets/imgs/SLIDEmobileM8D-44.jpeg'
 import imagecancer2R from '../assets/imgs/SLIDEmobileM8D-45.png'
-import creador from '../assets/imgs/creadorpor-09.jpg'
+import creador from '../assets/imgs/creadapor-09.jpg'
 import './styles.css';
 
 function Home() {
@@ -64,7 +64,7 @@ function Home() {
                 textAlign: 'center', // Center-align the text
             }}
             >
-            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.2em' : '0.6em' }}>
+            <span className="Hacen-posible-esta-campaa" style={{ fontSize: widthScreen ? '1.2em' : '0.6em',letterSpacing: 4}}>
                 HACEN POSIBLE ESTA CAMPAÑA
             </span>
         </div>

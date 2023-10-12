@@ -21,7 +21,7 @@ const FloatingButton = () => {
           height: widthScreen ? '8vh' : '6vh',
           borderRadius: '57px',
           boxShadow: '4px 4px 6px 0 rgba(0, 0, 0, 0.93)',
-          backgroundColor: '#66468e',
+          backgroundColor: '#806ABA',
           position: 'fixed',
           bottom: widthScreen ? '8vh' : '5vh',
           right: widthScreen ?'10vw':'5vw',
