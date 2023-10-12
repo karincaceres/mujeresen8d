@@ -53,7 +53,7 @@ const Header = () => {
                   onClick={() => handleNavClick('page2')}
                   style={setActiveLinkStyle(activeSection === 'page2')}
                 >
-                  CancerDeMama
+                  CáncerDeMama
                 </Link>
               </li>
               <li className={`nav-item ${activeSection === 'page3' ? 'active' : ''}`}>
@@ -99,7 +99,7 @@ const Header = () => {
                   onClick={() => handleNavClick('page2')}
                   style={setActiveLinkStyle(activeSection === 'page2')}
                 >
-                  CancerDeMama
+                  CáncerDeMama
                 </Link>
               </li>
               <li className={`nav-item ${activeSection === 'page3' ? 'active' : ''}`}>
