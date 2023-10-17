@@ -23,7 +23,7 @@ import FloatingButton from './FloatingButton';
 import imageVideo1 from '../assets/imgs/Videos/mechi-web-27.png';
 import imageVideo1R from '../assets/imgs/Videos/mechi-mobile-18.png';
 import imageVideo2 from '../assets/imgs/Videos/ceci-web-30.png'
-import imageVideo2R from '../assets/imgs/Videos/ceci-mobile29.png'
+import imageVideo2R from '../assets/imgs/Videos/ceci-mobile-29.png'
 import imageVideo3 from '../assets/imgs/Videos/sol-web-32.png';
 import imageVideo3R from '../assets/imgs/Videos/sol-mobile-31.png';
 import imageVideo4 from '../assets/imgs/Videos/pao-web-34.png';
