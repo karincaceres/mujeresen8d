@@ -8,15 +8,15 @@ import image2 from '../assets/imgs/2.jpeg';
 import image3 from '../assets/imgs/3.jpeg';
 
 import cliente1 from '../assets/imgs/slides-marcas-11.jpg'
-import cliente2 from '../assets/imgs//slidemarcasmobile-12.jpg'
-import cliente3 from '../assets/imgs/slidemarcasmobile-13.jpg'
+import cliente2 from '../assets/imgs//slides-marcas-12.jpg'
+import cliente3 from '../assets/imgs/slides-marcas-13.jpg'
 import Clientes from '../assets/imgs/slides-web-marcas.jpg'
 import FloatingButton from './FloatingButton';
 
 import imagecancer1 from '../assets/imgs/SLIDEScanceryM8D-07.jpeg';
-import imagecancer2 from '../assets/imgs/SLIDEScanceryM8D-08.png';
+import imagecancer2 from '../assets/imgs/SLIDEScanceryM8D-08.jpeg';
 import imagecancer1R from '../assets/imgs/SLIDEmobileM8D-44.jpeg'
-import imagecancer2R from '../assets/imgs/SLIDEmobileM8D-45.png'
+import imagecancer2R from '../assets/imgs/SLIDEmobileM8D-45.jpeg'
 import creador from '../assets/imgs/creadapor-09.jpg'
 import './styles.css';
 
