@@ -4,10 +4,10 @@ import Header from '../components/Header';
 import Slider from '../components/Slider';
 import './styles.css';
 
-import image1 from '../assets/imgs/1SLIDEnegroM8D-10.jpeg';
-import image2 from '../assets/imgs/2SLIDEnegroM8D-14.jpeg';
-import image3 from '../assets/imgs/3SLIDEnegroM8D-15.jpeg';
-import image4 from '../assets/imgs/4SLIDESnegroM8D-16.jpeg';
+import image1 from '../assets/imgs/SLIDEM8DNEGRO1.png'
+import image2 from '../assets/imgs/SLIDEM8DNEGRO2.png'
+import image3 from '../assets/imgs/SLIDEM8DNEGRO3.png'
+import image4 from '../assets/imgs/SLIDEM8DNEGRO4.png'
 
 import Filtro1 from '../assets/imgs/Filtros/cientifica-boton.png';
 import Filtro2 from '../assets/imgs/Filtros/moda-boton.png';
