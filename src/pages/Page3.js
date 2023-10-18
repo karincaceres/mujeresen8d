@@ -346,7 +346,7 @@ function Page3() {
 
         {/* Muestra la imagen debajo del video */}
               {currentImage && (
-             <div style={{marginBottom:'100px',backgroundColor:'#66478E' }}>
+             <div style={{backgroundColor:'#66478E' }}>
                 <img src={currentImage} alt="imagen" style={{ width: '100%', height: 'auto' }} />
           </div>
 
