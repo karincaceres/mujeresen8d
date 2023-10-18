@@ -341,12 +341,15 @@ function Page3() {
         )}
       </div>
 
-      <div style={{ position: 'relative', backgroundImage: { videoFiltro }, backgroundSize: '100% 100%' }}>
+      <div style={{ position: 'relative', backgroundColor:'#66478E', height: 'calc(100% + 200px)'}}>
         {/* Utiliza un iframe para mostrar el video de YouTube */}
 
         {/* Muestra la imagen debajo del video */}
-        {currentImage && (
-          <img src={currentImage} alt="imagen" style={{ width: '100%', height: 'auto' }} />
+              {currentImage && (
+             <div style={{marginBottom:'100px',backgroundColor:'#66478E' }}>
+                <img src={currentImage} alt="imagen" style={{ width: '100%', height: 'auto' }} />
+          </div>
+
         )}
       </div>
 
