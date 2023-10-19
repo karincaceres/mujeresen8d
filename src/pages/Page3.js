@@ -341,7 +341,7 @@ function Page3() {
         )}
       </div>
 
-      <div style={{ position: 'relative', backgroundColor:'#66478E', height: 'calc(100% + 200px)'}}>
+      <div style={{ position: 'relative', backgroundColor:'#66478E', marginBottom:'200px'}}>
         {/* Utiliza un iframe para mostrar el video de YouTube */}
 
         {/* Muestra la imagen debajo del video */}
