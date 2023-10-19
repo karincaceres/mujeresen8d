@@ -17,7 +17,7 @@ import Filtro5 from '../assets/imgs/Filtros/delasalud-boton.png';
 import Filtro6 from '../assets/imgs/Filtros/automotriz-boton.png';
 import Filtro7 from '../assets/imgs/Filtros/gastronomica-boton.png';
 import Filtro8 from '../assets/imgs/Filtros/cancer-boton.png';
-import videoFiltro from '../assets/imgs/Filtros/videofiltro-17.jpeg';
+//import videoFiltro from '../assets/imgs/Filtros/videofiltro-17.jpeg';
 import FloatingButton from './FloatingButton';
 
 import imageVideo1 from '../assets/imgs/Videos/mechi-web-27.png';
@@ -341,7 +341,7 @@ function Page3() {
         )}
       </div>
 
-      <div style={{ position: 'relative', backgroundColor:'#66478E', marginBottom:'200px'}}>
+      <div style={{ position: 'relative', backgroundColor:'#66478E', marginBottom:'200px' }}>
         {/* Utiliza un iframe para mostrar el video de YouTube */}
 
         {/* Muestra la imagen debajo del video */}

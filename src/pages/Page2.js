@@ -17,10 +17,10 @@ function Page2() {
  let initialVideo
 
   if (widthScreen) {
-    initialVideo = 'https://www.youtube.com/embed/UhDAU1j-zJ0?autoplay=1';
+    initialVideo = 'https://www.youtube.com/embed/jnhm49S3LHs?autoplay=1';
 
   } else {
-    initialVideo = 'https://www.youtube.com/embed/UhDAU1j-zJ0?autoplay=1';
+    initialVideo = 'https://www.youtube.com/embed/jnhm49S3LHs?autoplay=1';
 
   }
   // Estado para rastrear el video actual y la imagen
