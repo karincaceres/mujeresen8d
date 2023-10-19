@@ -1,20 +1,15 @@
-import React, { useState } from 'react';
-import Popup from '../components/Popup'; // Importa el componente Popup
-import '../pages/styles.css';
+import React from 'react';
 
-const FloatingButton = () => {
-  const widthScreen = window.innerWidth > 790;
-  const [showPopup, setShowPopup] = useState(false);
+function FloatingButton() {
+    const widthScreen = window.innerWidth > 790;
 
-  const handleButtonClick = () => {
-    setShowPopup(true);
+
+  const linkStyles = {
+    textDecoration: 'none', // Elimina el subrayado del enlace
+    fontSize: widthScreen ? '2.2em' : '1.2em',
+    color: 'white', // Cambia el color del texto
   };
- const handleButtonClose = () => {
-    setShowPopup(false);
-  };
-
-  return (
-    <div>
+    return (
       <div
         style={{
           width: widthScreen ? '25vw' : '45vw',
@@ -30,21 +25,12 @@ const FloatingButton = () => {
           alignItems: 'center',
           cursor: 'pointer',
         }}
-        onClick={handleButtonClick}
       >
-        <div className="USAR-FILTRO" style={{ fontSize: widthScreen ? '2.2em' : '1.2em' }}>
-          USAR FILTRO
-        </div>
+         <a href="https://www.instagram.com/ar/295672729938733/" className="USAR-FILTRO" style={linkStyles}>USAR FILTRO</a>
       </div>
 
-      {/* Mostrar el pop-up si showPopup es verdadero */}
-      {showPopup && (
-        <Popup
-          onClose={handleButtonClose}
-        />
-      )}
-    </div>
+
   );
-};
+}
 
 export default FloatingButton;
