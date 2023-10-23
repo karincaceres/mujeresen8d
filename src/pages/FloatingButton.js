@@ -26,7 +26,7 @@ function FloatingButton() {
           cursor: 'pointer',
         }}
       >
-         <a href="https://www.instagram.com/ar/345431454809259/?ch=Mjc1NjQ4NTliYzZmN2IwYzlkOWRkNGY5MWFmMDNiMzY%3D" className="USAR-FILTRO" style={linkStyles}>USAR FILTRO</a>
+         <a href="https://www.instagram.com/ar/295672729938733/" className="USAR-FILTRO" style={linkStyles}>USAR FILTRO</a>
       </div>
 
 
