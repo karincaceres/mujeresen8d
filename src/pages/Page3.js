@@ -341,7 +341,7 @@ function Page3() {
         )}
       </div>
 
-      <div style={{ position: 'relative', backgroundColor:'#66478E', marginBottom:'200px' }}>
+      <div style={{ position: 'relative', backgroundColor:'#66478E'  }}>
         {/* Utiliza un iframe para mostrar el video de YouTube */}
 
         {/* Muestra la imagen debajo del video */}
@@ -352,7 +352,7 @@ function Page3() {
 
         )}
       </div>
-
+      <div style={{position:'absolute', backgroundColor:'#66478E' , height:'150px' , width:'100%'}}></div>
       <FloatingButton />
     </div>
   );
